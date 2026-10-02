@@ -12,7 +12,7 @@ I build machine learning tools with explicit numerical contracts and reproducibl
 
 ### <img src="https://raw.githubusercontent.com/gamzerA/mps-pointops/v1.0.0/docs/assets/pointops-mark.svg" width="28" height="28" alt=""> mps-pointops
 
-[![PyPI version](https://img.shields.io/pypi/v/mps-pointops.svg)](https://pypi.org/project/mps-pointops/)
+[![PyPI version](https://img.shields.io/pypi/v/mps-pointops.svg?cacheSeconds=3600)](https://pypi.org/project/mps-pointops/)
 [![DOI for all versions](https://zenodo.org/badge/DOI/10.5281/zenodo.23076057.svg)](https://doi.org/10.5281/zenodo.23076057)
 
 **Point-cloud operators for PyTorch on Apple Silicon.**
