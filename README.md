@@ -1,123 +1,51 @@
-<div align="center">
+# YeYoung Lee
 
-# Hi, I'm Yeyoung Lee 👋
+Independent researcher working on industrial AI and scientific computing.
+I build machine learning tools with explicit numerical contracts and reproducible evaluation.
 
-### AI & Data Analytics Researcher
+[Portfolio](https://gamzerA.github.io/yeyoung-portfolio/) ·
+[Blog](https://gamzerA.github.io/) ·
+[ORCID](https://orcid.org/0009-0001-8245-1803) ·
+[Email](mailto:y2l1003@naver.com)
 
-데이터를 분석하는 것에서 그치지 않고,
-실제 문제를 정의하고 모델과 서비스로 구현하는 과정을 공부하고 있습니다.
+## Featured work
 
-</div>
+### <img src="https://raw.githubusercontent.com/gamzerA/mps-pointops/v1.0.0/docs/assets/pointops-mark.svg" width="28" height="28" alt=""> mps-pointops
 
----
+[![PyPI version](https://img.shields.io/pypi/v/mps-pointops.svg)](https://pypi.org/project/mps-pointops/)
+[![DOI for all versions](https://zenodo.org/badge/DOI/10.5281/zenodo.23076057.svg)](https://doi.org/10.5281/zenodo.23076057)
 
-## About Me
+**Point-cloud operators for PyTorch on Apple Silicon.**
 
-* 🎓 Artificial Intelligence undergraduate student
-* 🔬 Interested in Industrial AI, Smart Manufacturing, and Semiconductor Analytics
-* 📊 Experienced in Machine Learning, Data Analytics, and Data Engineering
-* 📝 Presented research on XGBoost-based real estate price prediction
-* 🌱 Currently studying Deep Learning, Time-Series Analysis, and MLOps
+Native Metal implementations of farthest point sampling (FPS), kNN, and Ball Query,
+with PyTorch and PyTorch Geometric integration. The project documents numerical
+behavior, compatibility boundaries, and reproducible measurements on Apple M1 and M5 Pro.
 
----
+- Native Metal kernels and spatial search.
+- Output and gradient checks against reference implementations.
+- Published Python package, versioned source archive, and interactive explainer.
 
-## Research Interests
+[Repository](https://github.com/gamzerA/mps-pointops) ·
+[Interactive explainer](https://gamzerA.github.io/mps-pointops/) ·
+[API reference](https://gamzerA.github.io/mps-pointops/reference/) ·
+[PyPI](https://pypi.org/project/mps-pointops/) ·
+[Cite v1.0.0](https://doi.org/10.5281/zenodo.23107348)
 
-* Industrial AI & Smart Manufacturing
-* Semiconductor Process and Yield Analytics
-* Predictive Modeling & Time-Series Forecasting
-* Explainable AI and Decision Support Systems
-* Data-driven Service Development
+## Selected projects
 
----
+**[GreenFab Insight](https://github.com/gamzerA/greenfab-insight)**<br>
+Manufacturing risk prioritization and ESG scenario simulation using the SECOM semiconductor dataset.
 
-## Featured Project
+**[Seoul Real Estate Analysis](https://github.com/gamzerA/xgboost-seoul-real-estate-anomaly-detection)**<br>
+XGBoost-based apartment price prediction and residual-based candidate selection for anomaly review.
 
-### SafeNavi — AI Disaster Safety Platform
+**[SafeNavi](https://github.com/gamzerA/safenavi-ai)**<br>
+A disaster safety service combining public alerts, shelter information, and location-based guidance.
 
-SafeNavi is a location-based disaster response platform that combines emergency alerts, public shelter data, weather information, and disaster action guidelines.
+## Research interests
 
-**Key Features**
+Industrial AI · Anomaly detection · Explainable machine learning · 3D vision · GPU computing
 
-* Real-time emergency alert collection
-* Regional safety score calculation
-* Location-based shelter recommendation
-* Disaster action guide RAG
-* Family safety message generation
-* Automated data updates with Cron Job
-* Web deployment using Render
+## Tools
 
-**My Contributions**
-
-* Public data collection and preprocessing
-* Data pipeline and database design
-* Shelter recommendation logic
-* Disaster alert analysis
-* Service deployment and automation
-
-**Tech Stack**
-
-`Python` `Flask` `Pandas` `PostgreSQL` `PostGIS` `REST API` `Render` `RAG`
-
-[View Repository](https://github.com/gamzerA/safenavi-ai) · [Live Demo](https://www.safenavi.site)
-
----
-
-## Research Experience
-
-### XGBoost-based Seoul Real Estate Price Analysis
-
-* Analyzed 189,864 apartment transactions from 2022–2025
-* Developed an XGBoost regression model
-* Applied 5-Fold Cross Validation
-* Achieved a mean R² score of 0.9172
-* Detected 922 potentially anomalous transactions
-* Presented the research at an academic conference
-
----
-
-## Tech Stack
-
-### Data Analysis & Machine Learning
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square\&logo=pandas\&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square\&logo=numpy\&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square\&logo=scikitlearn\&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)
-
-### Database & Backend
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square\&logo=flask\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
-
-### Currently Studying
-
-`Deep Learning` `Time-Series Forecasting` `MLOps`
-`Semiconductor Analytics` `Smart Manufacturing`
-
----
-
-## Activities
-
-* BITAmin Big Data Club
-* EST AI Challengers
-* Academic Paper Review Study
-* AI and Data Analytics Projects
-
----
-
-## Contact
-
-* GitHub: [gamzerA](https://github.com/gamzerA)
-* Email: [y2l1003@naver.com](mailto:y2l1003@naver.com)
-
----
-
-<div align="center">
-
-### Turning data into practical solutions.
-
-</div>
+Python · PyTorch · Metal · NumPy · scikit-learn · XGBoost · SQL
